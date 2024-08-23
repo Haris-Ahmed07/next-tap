@@ -6,7 +6,7 @@ import { SiYoutubemusic } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import logo2 from "../../assets/logo2.png";
+import logo2 from "/assets/logo2.png";
 
 const data = [
   {

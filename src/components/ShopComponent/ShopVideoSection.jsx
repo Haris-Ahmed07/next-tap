@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import shopVideoImg from "../../assets/shopVideo.svg";
+import shopVideoImg from "/assets/shopVideo.svg";
 import { Link } from "react-router-dom";
-import video from "../../assets/videosection.mp4"
+import video from "/assets/videosection.mp4"
 const ShopVideoSection = () => {
   return (
     <div className="xxl:px-32 xs:px-6 sm:px-8 md:px-8 lg:px-10 xl:px-16 xxl:py-16 xl:py-10 lg:py-8 md:py-10 sm:py-8 xs:py-6 mx-auto my-auto justify-center items-center bg-white flex ">

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import contactPageBottomLogo from "../../assets/contactPageBottomLogo.svg";
-import contactCircularBackground from "../../assets/contactCircularBackground.svg";
+import contactPageBottomLogo from "/assets/contactPageBottomLogo.svg";
+import contactCircularBackground from "/assets/contactCircularBackground.svg";
 import {
   TextField,
   Button,

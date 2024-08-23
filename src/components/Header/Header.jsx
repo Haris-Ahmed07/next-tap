@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "/assets/logo.png"
 import { CgMenuRight, CgClose } from "react-icons/cg";
 import { navigation } from "../../data.js";
 import { Link } from "react-router-dom";

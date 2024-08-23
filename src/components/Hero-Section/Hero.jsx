@@ -1,9 +1,9 @@
 import React from "react";
-import cards from "../../assets/cards.svg";
+import cards from "/assets/cards.svg";
 import { Link } from "react-router-dom";
-import featureReview from "../../assets/banner-reviews.svg";
-import heroRatingicon from "../../assets/heroRatingIcon.svg";
-import heroBackground from "../../assets/heroBackground.svg";
+import featureReview from "/assets/banner-reviews.svg";
+import heroRatingicon from "/assets/heroRatingIcon.svg";
+import heroBackground from "/assets/heroBackground.svg";
 //import data
 
 import { hero } from "../../data.js";

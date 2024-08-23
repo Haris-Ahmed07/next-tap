@@ -1,5 +1,5 @@
 import React from "react";
-import featureImg from "../../assets/banner2-cards.png";
+import featureImg from "/assets/banner2-cards.png";
 //import data
 import { Link } from "react-router-dom";
 

@@ -35,10 +35,10 @@ export default {
         extraLarge: "22px",
       },
       backgroundImage: {
-        banner1: 'url("/src/assets/banner1.svg")',
-        banner2: 'url("/src/assets/banner2.svg")',
-        banner3: 'url("/src/assets/banner3.svg")',
-        banner2cards: 'url("/src/assets/banner2-cards.svg")',
+        banner1: 'url("/assets/banner1.svg")',
+        banner2: 'url("/assets/banner2.svg")',
+        banner3: 'url("/assets/banner3.svg")',
+        banner2cards: 'url("/assets/banner2-cards.svg")',
       },
       dropShadow: {
         primary: "0px 4px 10px rgba(15, 27, 51, 0.05);",

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import card1 from "../../assets/card1.svg";
+import card1 from "/assets/card1.svg";
 
 const Cards = () => {
   const cardStyle1 = {};

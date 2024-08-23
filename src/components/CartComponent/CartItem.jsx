@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import React, { useEffect } from "react";
-import cartItemImage from "../../assets/cartItemImage.svg";
+import cartItemImage from "/assets/cartItemImage.svg";
 import {
   addItemQuantity,
   subtractItemQuantity,

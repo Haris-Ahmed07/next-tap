@@ -1,5 +1,5 @@
 import React from 'react'
-import signupImg from '../../assets/signup.gif'
+import signupImg from '/assets/signup.gif'
 import {Link} from 'react-router-dom'
 import { useState } from 'react'
 const SignUpForm = () => {

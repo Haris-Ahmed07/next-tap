@@ -1,7 +1,7 @@
 import React from 'react'
-import scan01 from "../../assets/scan01.svg"
-import scan02 from "../../assets/scan02.svg"
-import scan03 from "../../assets/scan03.svg"
+import scan01 from "/assets/scan01.svg"
+import scan02 from "/assets/scan02.svg"
+import scan03 from "/assets/scan03.svg"
 
 const TapOrScan = () => {
   return (

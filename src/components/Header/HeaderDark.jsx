@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Logo from "../../assets/img/logo-png.png";
+import Logo from "/assets/img/logo-png.png";
 import { CgMenuRight, CgClose } from "react-icons/cg";
 import { navigation } from "../../data.js";
 import NavMobile from "../NavMobile/NavMobile.jsx";

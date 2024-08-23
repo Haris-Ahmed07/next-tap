@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {HiStar} from 'react-icons/hi';
 import './TestimonialStyle.css'
-import testimonial from "../../assets/testimonial.svg"
+import testimonial from "/assets/testimonial.svg"
 import { testimonialData } from "../../data.js"
 import { Rating } from '@mui/material';
 

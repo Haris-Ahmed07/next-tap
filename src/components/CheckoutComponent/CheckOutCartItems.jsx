@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import cartItemImage1 from "../../assets/cartItemImage1.svg";
-import cartItemImage2 from "../../assets/cartItemImage2.svg";
 import { Typography } from "@mui/material";
 const CheckOutCartItems = (props) => {
   useEffect(()=>{

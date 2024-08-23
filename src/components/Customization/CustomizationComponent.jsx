@@ -10,22 +10,22 @@ import UndoIcon from "@mui/icons-material/Undo";
 import RedoIcon from "@mui/icons-material/Redo";
 import RestartAltIcon from "@mui/icons-material/RestartAlt";
 import { usePDF } from "react-to-pdf";
-import bg from "../../assets/addBgColor.svg";
-import textImg from "../../assets/addTextColor.svg";
-import logo from "../../assets/addLogo.svg";
+import bg from "/assets/addBgColor.svg";
+import textImg from "/assets/addTextColor.svg";
+import logo from "/assets/addLogo.svg";
 import { GoMoveToTop } from "react-icons/go";
 import { toPng } from "html-to-image";
-import share from "../../assets/share.svg";
-import save from "../../assets/save.svg";
-import pdf from "../../assets/pdf.svg";
+import share from "/assets/share.svg";
+import save from "/assets/save.svg";
+import pdf from "/assets/pdf.svg";
 import { GoChevronUp } from "react-icons/go";
 import { GoChevronDown } from "react-icons/go";
 import { Modal, Box } from "@mui/material";
-import bold from "../../assets/bold.svg";
-import italic from "../../assets/italic.svg";
-import right from "../../assets/right.svg";
-import left from "../../assets/left.svg";
-import center from "../../assets/center.svg";
+import bold from "/assets/bold.svg";
+import italic from "/assets/italic.svg";
+import right from "/assets/right.svg";
+import left from "/assets/left.svg";
+import center from "/assets/center.svg";
 
 const CustomizationComponent = () => {
   // handle front & back pdf generation

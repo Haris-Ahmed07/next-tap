@@ -110,7 +110,7 @@ export const formQuestions = [
 
 export const cards = [
   {
-    image: "src/assets/shopImg2.svg",
+    image: "/assets/shopImg2.svg",
     title: "NFC Business Card - Premium Edition",
     price: "$129",
     id: 2,
@@ -119,7 +119,7 @@ export const cards = [
     noOfRatings: 98,
   },
   {
-    image: "src/assets/shopImg3.svg",
+    image: "/assets/shopImg3.svg",
     title: "NFC Business Card - Executive Edition",
     price: "$149",
     id: 3,
@@ -128,7 +128,7 @@ export const cards = [
     noOfRatings: 150,
   },
   {
-    image: "src/assets/shopImg4.svg",
+    image: "/assets/shopImg4.svg",
     title: "NFC Business Card - Luxury Edition",
     price: "$199",
     id: 4,
@@ -137,7 +137,7 @@ export const cards = [
     noOfRatings: 75,
   },
   {
-    image: "src/assets/shopImg5.svg",
+    image: "/assets/shopImg5.svg",
     title: "NFC Business Card - Custom Edition",
     price: "$179",
     id: 5,
@@ -146,7 +146,7 @@ export const cards = [
     noOfRatings: 60,
   },
   {
-    image: "src/assets/shopImg2.svg",
+    image: "/assets/shopImg2.svg",
     title: "NFC Business Card - Premium Edition",
     price: "$129",
     id: 2,
@@ -155,7 +155,7 @@ export const cards = [
     noOfRatings: 90,
   },
   {
-    image: "src/assets/shopImg3.svg",
+    image: "/assets/shopImg3.svg",
     title: "NFC Business Card - Executive Edition",
     price: "$149",
     id: 3,
@@ -164,7 +164,7 @@ export const cards = [
     noOfRatings: 110,
   },
   {
-    image: "src/assets/shopImg4.svg",
+    image: "/assets/shopImg4.svg",
     title: "NFC Business Card - Luxury Edition",
     price: "$199",
     id: 4,
@@ -173,7 +173,7 @@ export const cards = [
     noOfRatings: 85,
   },
   {
-    image: "src/assets/shopImg5.svg",
+    image: "/assets/shopImg5.svg",
     title: "NFC Business Card - Custom Edition",
     price: "$179",
     id: 5,
@@ -182,7 +182,7 @@ export const cards = [
     noOfRatings: 70,
   },
   {
-    image: "src/assets/shopImg2.svg",
+    image: "/assets/shopImg2.svg",
     title: "NFC Business Card - Premium Edition",
     price: "$129",
     id: 2,
@@ -191,7 +191,7 @@ export const cards = [
     noOfRatings: 95,
   },
   {
-    image: "src/assets/shopImg3.svg",
+    image: "/assets/shopImg3.svg",
     title: "NFC Business Card - Executive Edition",
     price: "$149",
     id: 3,
@@ -200,7 +200,7 @@ export const cards = [
     noOfRatings: 130,
   },
   {
-    image: "src/assets/shopImg4.svg",
+    image: "/assets/shopImg4.svg",
     title: "NFC Business Card - Luxury Edition",
     price: "$199",
     id: 4,
@@ -209,7 +209,7 @@ export const cards = [
     noOfRatings: 100,
   },
   {
-    image: "src/assets/shopImg5.svg",
+    image: "/assets/shopImg5.svg",
     title: "NFC Business Card - Custom Edition",
     price: "$179",
     id: 5,
@@ -218,7 +218,7 @@ export const cards = [
     noOfRatings: 80,
   },
   {
-    image: "src/assets/shopImg2.svg",
+    image: "/assets/shopImg2.svg",
     title: "NFC Business Card - Premium Edition",
     price: "$129",
     id: 2,
@@ -227,7 +227,7 @@ export const cards = [
     noOfRatings: 97,
   },
   {
-    image: "src/assets/shopImg3.svg",
+    image: "/assets/shopImg3.svg",
     title: "NFC Business Card - Executive Edition",
     price: "$149",
     id: 3,
@@ -236,7 +236,7 @@ export const cards = [
     noOfRatings: 120,
   },
   {
-    image: "src/assets/shopImg4.svg",
+    image: "/assets/shopImg4.svg",
     title: "NFC Business Card - Luxury Edition",
     price: "$199",
     id: 4,
@@ -245,7 +245,7 @@ export const cards = [
     noOfRatings: 105,
   },
   {
-    image: "src/assets/shopImg5.svg",
+    image: "/assets/shopImg5.svg",
     title: "NFC Business Card - Custom Edition",
     price: "$179",
     id: 5,
@@ -254,7 +254,7 @@ export const cards = [
     noOfRatings: 75,
   },
   {
-    image: "src/assets/shopImg2.svg",
+    image: "/assets/shopImg2.svg",
     title: "NFC Business Card - Premium Edition",
     price: "$129",
     id: 2,
@@ -263,7 +263,7 @@ export const cards = [
     noOfRatings: 100,
   },
   {
-    image: "src/assets/shopImg3.svg",
+    image: "/assets/shopImg3.svg",
     title: "NFC Business Card - Executive Edition",
     price: "$149",
     id: 3,
@@ -272,7 +272,7 @@ export const cards = [
     noOfRatings: 135,
   },
   {
-    image: "src/assets/shopImg4.svg",
+    image: "/assets/shopImg4.svg",
     title: "NFC Business Card - Luxury Edition",
     price: "$199",
     id: 4,
@@ -281,7 +281,7 @@ export const cards = [
     noOfRatings: 110,
   },
   {
-    image: "src/assets/shopImg5.svg",
+    image: "/assets/shopImg5.svg",
     title: "NFC Business Card - Custom Edition",
     price: "$179",
     id: 5,

@@ -2,7 +2,7 @@ import React from "react";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import CallIcon from "@mui/icons-material/Call";
 import { Button } from "@mui/material";
-import Whatsapp from '../../assets/wa.png'
+import Whatsapp from '/assets/wa.png'
 const ContactButton = () => {
   const handleWhatsAppClick = () => {
     window.location.href = "https://wa.me/923403568231";

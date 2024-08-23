@@ -1,5 +1,5 @@
 import React from "react";
-import designImg from "../../assets/design-img.svg";
+import designImg from "/assets/design-img.svg";
 //import data
 import {Link } from "react-router-dom"
 import { design } from "../../data.js";
