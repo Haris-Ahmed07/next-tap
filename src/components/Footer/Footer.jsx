@@ -60,7 +60,7 @@ const Footer = () => {
         >
           {/* LEFT SIDE */}
           <Grid container item xs={12} md={12} sm={12} lg={6} xl={6}>
-            <Grid container item xs={12} sm={12} md={12} lg={12} className="xxl:h-[100px] xl:h-[100px] lg:h-[200px]" >
+            <Grid container item xs={12} sm={12} md={12} lg={12} className="xxl:h-[100px] xl:h-[100px] lg:h-[200px] xs:space-y-4 sm:space-y-0" >
               {/* Left & Top */}
               <Grid container item xs={12} sm={12} md={12} lg={12} className="xxl:h-[80px] xl:h-[80px] lg:h-[80px] ">
                 <div
@@ -153,7 +153,7 @@ const Footer = () => {
               </Grid>
               {/* Left & Bottom */}
               <Grid container item xs={12} md={12} lg={12}>
-                <div className="flex flex-col xxl:pb-0 xl:pb-0 lg:pb-5 md:pb-0 xxl:px-0 xl:px-0 lg:ps-[5%] lg:pe-[12.5%]  md:ps-[5%] md:pe-[11%] md:flex-row lg:flex-row items-start md:items-center w-full md:gap-4">
+                <div className="flex flex-col xxl:pb-0 xl:pb-0 lg:pb-5 md:pb-0 xxl:px-0 xl:px-0 lg:ps-[5%] lg:pe-[12.5%]  md:ps-[5%] md:pe-[11%] md:flex-row lg:flex-row items-start md:items-center w-full md:gap-4 xs:space-y-4 sm:space-y-0">
                   <div className="flex items-start   xxl:justify-start xl:justify-start  lg:justify-start md:justify-start  sm:justify-center  xs:justify-center w-full md:w-1/2 xxl:mb-4 xl:mb-4  lg:mb-4 md:mb-0 sm:mb-0 xs:mb-0 md:mr-[30px] xxl:py-5 xl:py-5 lg:py-5 md:py-5 sm:py-2 xs:py-0">
                     <img
                       src={logo2}
