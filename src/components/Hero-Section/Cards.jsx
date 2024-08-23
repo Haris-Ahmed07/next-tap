@@ -6,25 +6,22 @@ import card1 from "/assets/card1.svg";
 const Cards = () => {
   const cardStyle1 = {};
   const cardStyle2 = {
-    translateX: 5,
-    translateY: 20,
-    translateZ: -300,
-    scale: 1.05,
-    rotate: 12,
+    translateX: 20,
+    translateY: -15,
+    scale: 1.03,
+    rotate: 13,
   };
   const cardStyle3 = {
-    translateX: 2,
-    translateY: 10,
-    translateZ: -300,
-    scale: 1.05,
+    translateX: 30,
+    translateY: -20,
+    scale: 1.03,
     rotate: 24,
   };
   const cardStyle4 = {
-    translateX: 2,
-    translateY: 10,
-    translateZ: -300,
-    scale: 1.05,
-    rotate: 36,
+    translateX: 40,
+    translateY: -25,
+    scale: 1.03,
+    rotate: 34,
   };
 
   const [isHovered, setIsHovered] = useState(false);
@@ -44,21 +41,21 @@ const Cards = () => {
       >
         <motion.img className="absolute ml-[1rem] lg:w-[47%] md:w-[40%] xs:w-[70%] sm:w-[60%]" src={card1} alt="Card" />
         <motion.img
-          className="absolute ml-[2rem] card mb-[4rem] lg:w-[47%] md:w-[40%] xs:w-[70%] sm:w-[60%]"
+          className="absolute ml-[2rem] card mb-[2rem] lg:w-[47%] md:w-[40%] xs:w-[70%] sm:w-[60%]"
           animate={isHovered ? cardStyle2 : { rotate: 9 }}
           src={card1}
           alt="Card"
           transition={{ duration: 0.5, ease: "easeInOut" }}
         />
         <motion.img
-          className="absolute ml-[7rem] mb-[4.5rem] lg:w-[47%] md:w-[40%] xs:w-[70%] sm:w-[60%]"
+          className="absolute ml-[4.6rem] mb-[3.4rem] lg:w-[47%] md:w-[40%] xs:w-[70%] sm:w-[60%]"
           animate={isHovered ? cardStyle3 : { rotate: 20 }}
           src={card1}
           alt="Card"
           transition={{ duration: 0.5, ease: "easeInOut" }}
         />
         <motion.img
-          className="absolute ml-[12rem] mb-[6rem] lg:w-[47%] md:w-[40%] xs:w-[70%] sm:w-[60%]"
+          className="absolute ml-[7.5rem] mb-[4rem] lg:w-[47%] md:w-[40%] xs:w-[70%] sm:w-[60%]"
           animate={isHovered ? cardStyle4 : { rotate: 30 }}
           src={card1}
           alt="Card"
