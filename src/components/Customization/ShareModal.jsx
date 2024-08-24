@@ -20,9 +20,15 @@ const ShareModal = ({ open, handleClose, toPDF }) => {
       const pdfUrl = response.data.link;
 
       const shareUrls = {
-        Facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pdfUrl)}`,
-        WhatsApp: `https://api.whatsapp.com/send?text=${encodeURIComponent(pdfUrl)}`,
-        LinkedIn: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(pdfUrl)}`
+        Facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+          pdfUrl
+        )}`,
+        WhatsApp: `https://api.whatsapp.com/send?text=${encodeURIComponent(
+          pdfUrl
+        )}`,
+        LinkedIn: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+          pdfUrl
+        )}`,
       };
 
       window.open(shareUrls[platform], "_blank");
@@ -32,65 +38,71 @@ const ShareModal = ({ open, handleClose, toPDF }) => {
   };
 
   return (
-    <Modal open={open} onClose={handleClose}>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          margin: "auto",
-          marginTop: "20%",
-          backgroundColor: "darkBlue",
-          borderRadius: "xl",
-          gap: 2,
-          padding: 4,
-          width: "600px",
-          color: "white",
-        }}
-      >
-        <Typography
-          variant="h4"
-          gutterBottom
-          sx={{
-            fontWeight: "bold",
-            fontFamily: "Montserrat",
-          }}
-        >
-          Share Your Card
-        </Typography>
-
+      <Modal open={open} onClose={handleClose}>
         <Box
           sx={{
             display: "flex",
-            flexDirection: "row",
+            flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            width: "100%",
+            margin: "auto",
+            marginTop: "20%",
+            backgroundColor: "darkBlue",
+            borderRadius: "xl",
             gap: 2,
+            padding: 4,
+            width: {
+              xs: "90%",
+              sm: "50%",
+              md: "40%",
+              
+            },
+            color: "white",
+            borderRadius: "10px"
           }}
         >
-          <Button
-            onClick={() => handleShare("Facebook")}
-            sx={{ mb: 2, color: "white" }}
+          <Typography
+            variant="h4"
+            gutterBottom
+            sx={{
+              fontWeight: "bold",
+              fontFamily: "Montserrat",
+            }}
           >
-            <FacebookIcon sx={{ fontSize: "5rem" }} />
-          </Button>
-          <Button
-            onClick={() => handleShare("LinkedIn")}
-            sx={{ mb: 2, color: "white" }}
+            Share Your Card
+          </Typography>
+
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "center",
+              width: "100%",
+              gap: 2,
+            }}
           >
-            <LinkedInIcon sx={{ fontSize: "5rem" }} />
-          </Button>
-          <Button
-            onClick={() => handleShare("WhatsApp")}
-            sx={{ mb: 2, color: "white" }}
-          >
-            <WhatsAppIcon sx={{ fontSize: "5rem" }} />
-          </Button>
+            <Button
+              onClick={() => handleShare("Facebook")}
+              sx={{ mb: 2, color: "white" }}
+            >
+              <FacebookIcon sx={{ fontSize: "5rem" }} />
+            </Button>
+            <Button
+              onClick={() => handleShare("LinkedIn")}
+              sx={{ mb: 2, color: "white" }}
+            >
+              <LinkedInIcon sx={{ fontSize: "5rem" }} />
+            </Button>
+            <Button
+              onClick={() => handleShare("WhatsApp")}
+              sx={{ mb: 2, color: "white" }}
+            >
+              <WhatsAppIcon sx={{ fontSize: "5rem" }} />
+            </Button>
+          </Box>
         </Box>
-      </Box>
-    </Modal>
+      </Modal>
   );
 };
 
