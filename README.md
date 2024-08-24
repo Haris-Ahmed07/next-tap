@@ -108,7 +108,7 @@ If you have any questions or ideas, feel free to contact me. Collaboration is en
 
 If you have any questions or would like to collaborate, please contact me at:
 
-- **Email**: [haris.14787@gmail.com]
+- **Email**: haris.14787@gmail.com
 - **GitHub**: [https://github.com/Haris-Ahmed07](https://github.com/Haris-Ahmed07)
 
 Thank you for checking out Next Tap! I hope you enjoy using it as much as I enjoyed building it.
